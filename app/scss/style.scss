@@ -1,0 +1,14 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+.text{
+    
+    justify-content: space-between;
+    padding-left: 5px;
+}
