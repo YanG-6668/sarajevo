@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+// html,
+// body {
+//     height: 100%;
+//     position: relative;
+//     overflow: hidden;
+// }
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: $text;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.title {
+    font-size: 35px;
+    color: $title;
+    @include f700;
+    text-align: center;
+}
