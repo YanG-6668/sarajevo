@@ -29,6 +29,18 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-music:before {
+    content: "\f001";
+}
+
+.icon-clock-o:before {
+    content: "\f017";
+}
+
+.icon-camera:before {
+    content: "\f030";
+}
+
 .icon-pencil:before {
     content: "\f040";
 }
@@ -49,6 +61,10 @@
     content: "\f0a1";
 }
 
+.icon-wrench:before {
+    content: "\f0ad";
+}
+
 .icon-google-plus:before {
     content: "\f0d5";
 }
@@ -59,4 +75,16 @@
 
 .icon-pagelines:before {
     content: "\f18c";
+}
+
+.icon-paper-plane-o:before {
+    content: "\f1d9";
+}
+
+.icon-send-o:before {
+    content: "\f1d9";
+}
+
+.icon-user-o:before {
+    content: "\f2c0";
 }
