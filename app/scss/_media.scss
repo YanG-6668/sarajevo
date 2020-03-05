@@ -1,0 +1,377 @@
+@media(max-width: 1040px) {
+    .discuss__col-message-line {
+        max-width: 100%;
+        width: 100%;
+    }
+    .discuss__col-adress {
+        padding-right: 10px;
+    }
+    .discuss__cols {
+        padding-bottom: 30px;
+    }
+    .discuss__col-message button {
+        bottom: -33px;
+    }
+}
+
+@media(max-width: 1025px) {
+    .header {
+        height: 100vh;
+    }
+    .header__inner {
+        height: 70px;
+    }
+    .header__menu ul li {
+        font-size: 18px;
+    }
+    .works .works__item {
+        flex-basis: calc(33.3333% - 15px);
+        margin-left: 15px;
+    }
+    .works__inner-box {
+        margin-left: -15px;
+    }
+    .works__item img {
+        width: 100%;
+        height: auto;
+    }
+    .works__item .works__link {
+        bottom: 7px;
+    }
+    .works__item .works__box:hover .works__link {
+        height: 98%;
+    }
+}
+
+@media(max-width: 960px) {
+    .team__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .team__item {
+        max-width: 50%;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .team__item-img {
+        margin: 0 auto;
+    }
+    .team__item .team__item-img .team__hover {
+        max-width: 224px;
+        right: 28px;
+    }
+}
+
+@media(max-width: 880px) {
+    .phone__item-content::before {
+        font-size: 24px;
+    }
+    .phone__item-content {
+        padding-left: 50px;
+    }
+}
+
+@media(max-width: 850px) {
+    .features__items {
+        flex-wrap: wrap;
+    }
+    .features__item {
+        max-width: 60%;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .features__item-title {
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-height: 823px) {
+    .first__bg {
+        padding-top: 100px;
+    }
+}
+
+@media(max-width: 800px) {
+    .phone__items {
+        display: inline-block;
+    }
+    .phone__colf {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .phone__item {
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .phone__cols {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding-bottom: 30px;
+    }
+    .iphone {
+        padding-top: 40px;
+        text-align: center;
+    }
+    .works .works__item {
+        flex-basis: calc(50% - 8px);
+        margin-left: 8px;
+    }
+    .works__inner-box {
+        margin-left: -8px;
+    }
+    .works__item img {
+        width: 100%;
+        height: auto;
+    }
+    .works__item {
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 744px) {
+    .facts__items {
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+    .facts__item {
+        padding-top: 0;
+        max-width: 50%;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-height: 731px) {
+    .first__bg {
+        padding-top: 80px;
+    }
+}
+
+@media(max-width: 670px) {
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #000;
+        top: 50px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        text-align: center;
+        a {
+            display: block;
+            padding: 10px 0;
+            border-bottom: 1px solid rgb(107, 104, 104);
+        }
+        li {
+            display: block;
+            &+li {
+                margin-left: 0;
+            }
+            &:first-child {
+                border-top: 1px solid rgb(107, 104, 104);
+            }
+        }
+    }
+    .menu__btn {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+        margin-right: 20px;
+        div {
+            background-color: #fff;
+            height: 3px;
+            &+div {
+                margin-top: 5px;
+            }
+        }
+    }
+    .first__bg-title-logo {
+        font-size: 48px;
+    }
+    .first__bg-title {
+        line-height: 40px;
+        font-size: 38px;
+    }
+    .discuss__cols {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
+    .discuss__col-social {
+        max-width: 100%;
+        width: 100%;
+        padding-bottom: 20px;
+        li {
+            display: inline-block;
+            &+li {
+                margin-left: 40px;
+            }
+        }
+    }
+    .discuss__col-adress {
+        padding-top: 70px;
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media(max-width: 615px) {
+    .team__item-img {
+        max-width: 224px;
+    }
+    .team__item .team__item-img .team__hover {
+        right: 0;
+        left: 0;
+    }
+}
+
+@media(max-width: 600px) {
+    .first__bg-text {
+        margin-top: 20px;
+    }
+    .first__bg-text::after {
+        right: 70px;
+    }
+    .first__bg-text::before {
+        left: 70px;
+    }
+    .works__inner-btn {
+        padding-bottom: 30px;
+    }
+    .works__inner-btn {
+        button {
+            font-size: 16px;
+        }
+    }
+    .works__inner-btn button+button {
+        margin-left: 5px;
+    }
+    .works__inner-btn .mixitup-control-active {
+        padding: 7px 15px;
+    }
+}
+
+@media(max-width: 570px) {
+    .phone__items {
+        margin: 0 auto;
+    }
+    .phone__item {
+        max-width: 100%;
+        width: 100%;
+        min-height: 100px;
+    }
+    .phone__colf {
+        display: block;
+    }
+    .phone__item {
+        margin-top: 20px;
+    }
+    .phone__cols {
+        display: block;
+        padding-bottom: 30px;
+    }
+    .works .works__item {
+        flex-basis: 100%;
+        // margin-left: 8px;
+    }
+    .works__inner-btn {
+        display: flex;
+        flex-direction: column;
+        button+button {
+            margin-top: 5px;
+        }
+    }
+}
+
+@media(max-height: 568px) {
+    .first__bg {
+        padding-top: 40px;
+    }
+}
+
+@media(max-width: 500px) {
+    .first__bg-text::after {
+        right: 50px;
+    }
+    .first__bg-text::before {
+        left: 50px;
+    }
+    .team__item {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media(max-width: 450px) {
+    .first__bg-text::after {
+        right: 20px;
+    }
+    .first__bg-text::before {
+        left: 20px;
+    }
+    .features-img {
+        max-width: 330px;
+        width: 100%;
+    }
+    .features-img::after {
+        width: 70px;
+        right: 50px;
+    }
+    .features-img::before {
+        width: 70px;
+        left: 50px;
+    }
+    .facts__item {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media(max-width: 400px) {
+    .first__bg-text::after {
+        right: 0;
+        width: 25px;
+    }
+    .first__bg-text::before {
+        left: 0;
+        width: 25px;
+    }
+    .first__bg-title {
+        line-height: 40px;
+        font-size: 34px;
+    }
+    .iphone {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .discuss__col-social {
+        li+li {
+            margin-left: 20px;
+        }
+    }
+}
+
+@media(max-width: 374px) {
+    .first__bg-text {
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 671px) {
+    .menu {
+        display: block !important;
+    }
+}
+
+@media(min-height: 754px) {
+    .first__bg {
+        padding-top: 280px;
+    }
+}

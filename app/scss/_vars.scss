@@ -1,0 +1,17 @@
+$text:#062033;
+$title: #4c76ff;
+$bg: #efefef;
+@mixin f100 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+@mixin f600 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+@mixin f700 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
