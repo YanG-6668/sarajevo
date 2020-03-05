@@ -6,7 +6,8 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            min-height: 750px;
+            // min-height: 750px;
+            height: 100vh;
         }
         
         .header__inner {
@@ -27,17 +28,20 @@
         }
         
         .header__menu {
-            ul {
-                display: flex;
-                justify-content: space-between;
-                li {
-                    font-size: 14px;
-                    &+li {
-                        margin-left: 40px;
-                    }
-                    a {
-                        color: #fff;
-                    }
+            display: flex;
+            align-items: center;
+            // height: 60px;
+        }
+        
+        .menu {
+            li {
+                display: inline-block;
+                font-size: 18px;
+                &+li {
+                    margin-left: 35px;
+                }
+                a {
+                    color: #fff;
                 }
             }
             .active {
@@ -45,12 +49,14 @@
             }
         }
         
-        // end section 
-        //start section 
+        .menu__btn {
+            display: none;
+        }
+        
         .first__bg {
             max-width: 610px;
             text-align: center;
-            padding-top: 240px;
+            padding-top: 280px;
             margin: 0 auto;
             &-title-logo {
                 color: #fff;
@@ -95,6 +101,9 @@
                 }
             }
             &-social {
+                font-size: 24px;
+                margin: 0 auto;
+                text-align: center;
                 padding-top: 100px;
                 a {
                     color: #6e6e6e;

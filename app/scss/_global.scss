@@ -8,12 +8,13 @@ html {
     box-sizing: inherit;
 }
 
-// html,
-// body {
-//     height: 100%;
-//     position: relative;
-//     overflow: hidden;
-// }
+html,
+body {
+    // height: 100%;
+    position: relative;
+    // overflow: hidden;
+}
+
 a {
     display: inline-block;
     text-decoration: none;
