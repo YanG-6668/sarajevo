@@ -642,4 +642,38 @@
         }
         
         // end section 
+        //go
+        .section {
+            overflow: 0;
+        }
+        
+        .scroll-reveal {
+            animation: fadeAndSlide 0.8s ease-in-out forwards;
+        }
+        
+        @keyframes fadeAndSlide {
+            0% {
+                overflow: 0;
+                padding-top: 1000px;
+            }
+            100% {
+                // padding-top: 0px;
+                overflow: 1;
+            }
+        }
+        
+        @keyframes headerFadein {
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        .anim {
+            opacity: 0;
+            animation: headerFadein 2s;
+            animation-fill-mode: forwards;
+            animation-play-state: running;
+        }
+        
+        //end
         @import 'media';
